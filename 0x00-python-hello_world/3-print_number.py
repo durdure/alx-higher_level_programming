@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(f"{98} Battery street")
+dummy = 98
+print(f"{dummy:d} Battery street")
