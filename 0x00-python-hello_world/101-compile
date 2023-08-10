@@ -1,2 +1,5 @@
 #!/bin/bash
-python3 -m compileall -b $PYFILE i
+PYFILE=$PYFILE
+PYFILEC=${PYFILE%.*}.pyc
+python -m py_compile $PYFILE
+mv ${PYFILE}c $PYFILEC
