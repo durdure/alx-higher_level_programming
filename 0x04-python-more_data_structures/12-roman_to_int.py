@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def roman_to_int(roman_string):
     if not roman_string or type(roman_string) != str:
         return 0
@@ -12,5 +11,5 @@ def roman_to_int(roman_string):
         else:
             roman_n += roman_d[roman_string[j]]
     return roman_n
-
+    
 print(roman_to_int(input("Enter: ")))
