@@ -1,2 +1,2 @@
--- insert new record to first_table
-INSERT INTO (id, name) VALUES (89, 'Best School');
+-- inserts new record to first_table
+INSERT INTO first_table (id, name) VALUES (89, 'Best School');
